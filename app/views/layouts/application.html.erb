@@ -7,10 +7,15 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
   </head>
 
   <body>
+    <%= render 'layouts/navigation' %>
     <%= render 'layouts/messages' %>
-    <%= yield %>
+    <div class="container">
+      <%= yield %>
+    </div>
+    <%= render 'layouts/footer' %>
   </body>
 </html>

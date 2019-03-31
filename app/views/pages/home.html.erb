@@ -1,26 +1,6 @@
-<head>
-	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-</head>
-
-<style type="text/css">
-	body {
-		font-family: 'Oswald', sans-serif;
-		height: 100%;
-		background-color: #333;
-  	color: #fff;
-		/*box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);*/
-	}
-	a {
-		color: #888;
-	}
-	.hero {
-		text-align: center;
-	}
-</style>
-
-<div class="hero">
-	<h1>Welcome to the Home Page!</h1>
-	<p><%= link_to "Articles", articles_path %> | <%= link_to "About", about_path %></p>
+<div class="jumbotron hero">
+	<h1 class="display-4">Alpha Blog</h1>
+	<p class="lead">Welcome to the article blogging site built with Ruby on Rails and Bootstrap</p>
+	<hr class="my-4">
+	<%= link_to "Sign Up Now!", "#", class: "btn btn-primary btn-lg", role: "button" %>
 </div>
-
-
