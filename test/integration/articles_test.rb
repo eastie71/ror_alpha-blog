@@ -35,6 +35,8 @@ class ArticlesTest < ActionDispatch::IntegrationTest
 		assert_difference 'Article.count' do
 			post articles_path, params: { article: {title: my_article_title, description: my_article_description, user: @user}}
 		end
+		# Should display a success message
+		assert_not flash.empty?
 		# After successful post should go to show page
 		follow_redirect!
 		assert_match my_article_title, response.body
