@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class ArticlesTest < ActiveSupport::TestCase
+class ArticleTest < ActiveSupport::TestCase
 	def setup
 		@user = User.create!(username: "Craig", email: "craig@example.com", password: "password")
 		@article = Article.create!(title: "my title", description: "my description", user: @user)
