@@ -69,12 +69,17 @@ a {
 .article-times {
 	border-top: 1px solid #eaeaea;
 	margin-top: 15px;
+	margin-bottom: 10px;
 }
 
 /* Card Show */
 .card-adjust {
 	color: #555;
 	margin-bottom: 14px;
+}
+
+.card_narrow {
+	max-width: 100rem;
 }
 
 .top-pad {

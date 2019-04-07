@@ -1,7 +1,14 @@
 <h2 class="action-heading">Title: <%= @article.title %></h2>
 
-<div class="card card-adjust">
-	<div class="card-header">
+<div class="card card-adjust bg-light">
+	<% if @article.user %>
+		<div class="card-body text-center">
+			<p>Created By:</p>
+			<p><%= link_to gravatar_for(@article.user, size: 120), user_path(@article.user), class: "center" %></p>
+			<h4><%= link_to @article.user.username.gsub(/\w{2,}\b/) { |word| word.capitalize }, user_path(@article.user), class: "center" %></h4>
+		</div>
+	<% end %>
+	<div class="card-header card-shrink-top-margin">
 		<h4>Description:</h4>
 	</div>
 	<div class="card-body">
