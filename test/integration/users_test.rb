@@ -3,6 +3,7 @@ require 'test_helper'
 class UsersTest < ActionDispatch::IntegrationTest
   def setup
 		@user = User.create!(username: "Craig", email: "craig@example.com", password: "password")
+		@article = Article.create!(title: "my title", description: "my description", user: @user)
 	end
 
 	test "should create new valid user" do
@@ -32,5 +33,15 @@ class UsersTest < ActionDispatch::IntegrationTest
 
 		# Mark sure there is a h4 element with the word error in it
 		assert_select 'h4', :text => /error/
+	end
+
+	test "should get user show articles page" do
+		get user_path(@user)
+		assert_template 'users/show'
+		# Search for links to Articles associated with user
+		assert_select "a[href=?]", article_path(@article), text: @article.title
+		assert_select "a[href=?]", edit_article_path(@article), text: "Edit this Article"
+		assert_match @user.username, response.body
+		assert_match @article.description, response.body
 	end
 end

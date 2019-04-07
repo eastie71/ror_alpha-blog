@@ -30,7 +30,7 @@ class ArticleEditTest < ActionDispatch::IntegrationTest
 		patch article_path(@article), params: {article: {title: "", description: "this is ok - but title is not!"}}
 		# Should stay on edit page
 		assert_template 'articles/edit'
-		# Make sute there is a h4 message with word error in it
+		# Make sure there is a h4 message with word error in it
 		assert_select 'h4', :text => /error/
 	end
 end
