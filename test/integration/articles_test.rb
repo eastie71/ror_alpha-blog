@@ -1,9 +1,15 @@
 require 'test_helper'
 
 class ArticlesTest < ActionDispatch::IntegrationTest
-  def setup
-		@user = User.create!(username: "Craig", email: "craig@example.com", password: "password")
+  	def setup
+#logger = Logger.new('logfile.log')
+#logger.debug("Start Setup User Count is: #{User.count}")
+		@user = User.create!(username: "Craig", email: "craig@example2.com", password: "password")
+		@user.save
 		@article = Article.create!(title: "my title", description: "my description", user: @user)
+		@article.save
+#logger.debug("End Setup User Count is: #{User.count}")
+#logger.debug("End Setup Article Count is: #{Article.count}")
 	end
 
 	test "should get articles listing" do
@@ -27,22 +33,24 @@ class ArticlesTest < ActionDispatch::IntegrationTest
 	end
 
 	test "should create new valid article" do
+#logger = Logger.new('logfile.log')
 		get new_article_path
 		assert_template 'articles/new'
 		my_article_title = "new article title"
 		my_article_description = "new article description"
+#logger.debug "User email is: #{@user.email}"
 		# Check if count increases after posting valid new article
 		assert_difference 'Article.count' do
 			post articles_path, params: { article: {title: my_article_title, description: my_article_description, user: @user}}
 		end
 		# Should display a success message
 		assert_not flash.empty?
+		@myarticle = Article.first
 
 		# After successful post should go to show page
-# CANT TEST THIS AT THE MOMENT because USER is empty due to HARD CODING in Article Create!
-		#follow_redirect!
-		#assert_match my_article_title, response.body
-		#assert_match my_article_description, response.body
+		follow_redirect!
+		assert_match my_article_title, response.body
+		assert_match my_article_description, response.body
 	end
 
 	test "should reject new invalid article" do

@@ -1,8 +1,8 @@
 require 'test_helper'
 
 class UsersTest < ActionDispatch::IntegrationTest
-  def setup
-		@user = User.create!(username: "Craig", email: "craig@example.com", password: "password")
+	def setup
+		@user = User.create!(username: "Craig", email: "craig@example4.com", password: "password")
 		@article = Article.create!(title: "my title", description: "my description", user: @user)
 	end
 

@@ -12,8 +12,12 @@ class ArticlesController < ApplicationController
 	end
 
 	def create
+#logger = Logger.new('article_log.log')
 		@article = Article.new(article_params)
-		@article.user = User.first
+		@aUser = User.first
+		@article.user = @aUser
+#logger.debug "Article User Count is: #{User.count}"
+#logger.debug "User LAST email is: #{@aUser.email}"
 		if @article.save
 			flash[:success] = "Article successfully created"
 			redirect_to article_path(@article)

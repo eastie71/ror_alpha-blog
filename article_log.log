@@ -1,0 +1,43 @@
+# Logfile created on 2019-04-13 21:33:39 +1000 by logger.rb/66358
+D, [2019-04-13T21:33:39.648328 #414] DEBUG -- : Article User Create for: 
+D, [2019-04-13T21:33:39.703089 #414] DEBUG -- : Article User Create for: 
+D, [2019-04-13T21:35:11.389713 #434] DEBUG -- : Article User Count is: 3
+D, [2019-04-13T21:35:11.389941 #434] DEBUG -- : Article User Create for: 
+D, [2019-04-13T21:35:11.414019 #434] DEBUG -- : Article User Count is: 3
+D, [2019-04-13T21:35:11.414107 #434] DEBUG -- : Article User Create for: 
+D, [2019-04-13T21:36:37.335643 #444] DEBUG -- : Article User Count is: 3
+D, [2019-04-13T21:36:37.335886 #444] DEBUG -- : Article User Create for: 
+D, [2019-04-13T21:36:37.398735 #444] DEBUG -- : Article User Count is: 3
+D, [2019-04-13T21:36:37.399087 #444] DEBUG -- : Article User Create for: 
+D, [2019-04-13T21:38:37.338305 #463] DEBUG -- : Article User Count is: 3
+D, [2019-04-13T21:38:37.338541 #463] DEBUG -- : User First email is: 
+D, [2019-04-13T21:38:37.405758 #463] DEBUG -- : Article User Count is: 3
+D, [2019-04-13T21:38:37.405840 #463] DEBUG -- : User First email is: 
+D, [2019-04-13T21:40:09.994062 #490] DEBUG -- : Article User Count is: 3
+D, [2019-04-13T21:40:09.994275 #490] DEBUG -- : User First email is: 
+D, [2019-04-13T21:40:10.057588 #490] DEBUG -- : Article User Count is: 3
+D, [2019-04-13T21:40:10.057655 #490] DEBUG -- : User First email is: 
+D, [2019-04-13T21:44:41.620917 #507] DEBUG -- : Article User Count is: 3
+D, [2019-04-13T21:44:41.621030 #507] DEBUG -- : User First email is: 
+D, [2019-04-13T21:44:41.646790 #507] DEBUG -- : Article User Count is: 3
+D, [2019-04-13T21:44:41.646862 #507] DEBUG -- : User First email is: 
+D, [2019-04-13T21:47:23.469791 #537] DEBUG -- : Article User Count is: 3
+D, [2019-04-13T21:47:23.469895 #537] DEBUG -- : User First email is: 
+D, [2019-04-13T21:47:23.538407 #537] DEBUG -- : Article User Count is: 3
+D, [2019-04-13T21:47:23.538473 #537] DEBUG -- : User First email is: 
+D, [2019-04-13T21:49:13.109631 #547] DEBUG -- : Article User Count is: 3
+D, [2019-04-13T21:49:13.109736 #547] DEBUG -- : User First email is: craig@example.com
+D, [2019-04-13T21:49:13.131674 #547] DEBUG -- : Article User Count is: 3
+D, [2019-04-13T21:49:13.131743 #547] DEBUG -- : User First email is: craig@example.com
+D, [2019-04-13T21:51:07.417118 #565] DEBUG -- : Article User Count is: 3
+D, [2019-04-13T21:51:07.417233 #565] DEBUG -- : User LAST email is: craig@example.com
+D, [2019-04-13T21:51:07.440431 #565] DEBUG -- : Article User Count is: 3
+D, [2019-04-13T21:51:07.440532 #565] DEBUG -- : User LAST email is: craig@example.com
+D, [2019-04-13T21:52:29.312312 #574] DEBUG -- : Article User Count is: 3
+D, [2019-04-13T21:52:29.312430 #574] DEBUG -- : User LAST email is: craig@example.com
+D, [2019-04-13T21:52:29.357925 #574] DEBUG -- : Article User Count is: 3
+D, [2019-04-13T21:52:29.357996 #574] DEBUG -- : User LAST email is: craig@example.com
+D, [2019-04-13T21:54:15.563958 #584] DEBUG -- : Article User Count is: 3
+D, [2019-04-13T21:54:15.564068 #584] DEBUG -- : User LAST email is: craig@example2.com
+D, [2019-04-13T21:54:15.591604 #584] DEBUG -- : Article User Count is: 3
+D, [2019-04-13T21:54:15.591674 #584] DEBUG -- : User LAST email is: craig@example2.com

@@ -4,8 +4,9 @@
 # model remove the '{}' from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
-one: {}
+# 14/4/19: Removed these! It took a LONG time to work out that these fixtures are part of the test database!!! Now commented out!
+# one: {}
 # column: value
 #
-two: {}
+#two: {}
 # column: value

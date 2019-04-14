@@ -1,0 +1,201 @@
+# Logfile created on 2019-04-13 21:17:50 +1000 by logger.rb/66358
+D, [2019-04-13T21:17:50.996034 #281] DEBUG -- : User saved
+D, [2019-04-13T21:17:51.026934 #281] DEBUG -- : User saved
+D, [2019-04-13T21:17:51.208498 #281] DEBUG -- : User saved
+D, [2019-04-13T21:17:51.278625 #281] DEBUG -- : User saved
+D, [2019-04-13T21:19:09.536325 #290] DEBUG -- : User saved
+D, [2019-04-13T21:19:09.577623 #290] DEBUG -- : User saved
+D, [2019-04-13T21:19:09.645300 #290] DEBUG -- : User saved
+D, [2019-04-13T21:19:09.658914 #290] DEBUG -- : User count is: 3
+D, [2019-04-13T21:19:09.687460 #290] DEBUG -- : User saved
+D, [2019-04-13T21:22:31.478779 #334] DEBUG -- : User saved
+D, [2019-04-13T21:22:31.508652 #334] DEBUG -- : User count is: 3
+D, [2019-04-13T21:22:31.537395 #334] DEBUG -- : User saved
+D, [2019-04-13T21:22:31.573752 #334] DEBUG -- : User saved
+D, [2019-04-13T21:22:31.632612 #334] DEBUG -- : User saved
+D, [2019-04-13T21:23:47.238250 #360] DEBUG -- : User saved
+D, [2019-04-13T21:23:47.303138 #360] DEBUG -- : User saved
+D, [2019-04-13T21:23:47.342158 #360] DEBUG -- : User saved
+D, [2019-04-13T21:23:47.381845 #360] DEBUG -- : User saved
+D, [2019-04-13T21:23:47.402345 #360] DEBUG -- : User count is: 3
+D, [2019-04-13T21:27:21.603203 #369] DEBUG -- : User count is: 3
+D, [2019-04-13T21:28:10.944792 #385] DEBUG -- : User count is: 3
+D, [2019-04-13T21:33:39.700632 #414] DEBUG -- : User count is: 3
+D, [2019-04-13T21:35:11.410957 #434] DEBUG -- : User count is: 3
+D, [2019-04-13T21:36:37.395573 #444] DEBUG -- : User count is: 3
+D, [2019-04-13T21:38:37.402307 #463] DEBUG -- : User count is: 3
+D, [2019-04-13T21:40:10.054561 #490] DEBUG -- : User count is: 3
+D, [2019-04-13T21:44:41.561412 #507] DEBUG -- : Start Setup User Count is: 2
+D, [2019-04-13T21:44:41.569518 #507] DEBUG -- : End Setup User Count is: 3
+D, [2019-04-13T21:44:41.583306 #507] DEBUG -- : Start Setup User Count is: 2
+D, [2019-04-13T21:44:41.590886 #507] DEBUG -- : End Setup User Count is: 3
+D, [2019-04-13T21:44:41.600185 #507] DEBUG -- : Start Setup User Count is: 2
+D, [2019-04-13T21:44:41.607789 #507] DEBUG -- : End Setup User Count is: 3
+D, [2019-04-13T21:44:41.629808 #507] DEBUG -- : Start Setup User Count is: 2
+D, [2019-04-13T21:44:41.637509 #507] DEBUG -- : End Setup User Count is: 3
+D, [2019-04-13T21:44:41.643669 #507] DEBUG -- : User count is: 3
+D, [2019-04-13T21:47:23.447318 #537] DEBUG -- : Start Setup User Count is: 2
+D, [2019-04-13T21:47:23.456007 #537] DEBUG -- : End Setup User Count is: 3
+D, [2019-04-13T21:47:23.456391 #537] DEBUG -- : End Setup Article Count is: 3
+D, [2019-04-13T21:47:23.466734 #537] DEBUG -- : User count is: 3
+D, [2019-04-13T21:47:23.475200 #537] DEBUG -- : Start Setup User Count is: 2
+D, [2019-04-13T21:47:23.484839 #537] DEBUG -- : End Setup User Count is: 3
+D, [2019-04-13T21:47:23.485201 #537] DEBUG -- : End Setup Article Count is: 3
+D, [2019-04-13T21:47:23.494645 #537] DEBUG -- : Start Setup User Count is: 2
+D, [2019-04-13T21:47:23.502724 #537] DEBUG -- : End Setup User Count is: 3
+D, [2019-04-13T21:47:23.503046 #537] DEBUG -- : End Setup Article Count is: 3
+D, [2019-04-13T21:47:23.521752 #537] DEBUG -- : Start Setup User Count is: 2
+D, [2019-04-13T21:47:23.530172 #537] DEBUG -- : End Setup User Count is: 3
+D, [2019-04-13T21:47:23.530489 #537] DEBUG -- : End Setup Article Count is: 3
+D, [2019-04-13T21:49:13.087472 #547] DEBUG -- : Start Setup User Count is: 2
+D, [2019-04-13T21:49:13.095842 #547] DEBUG -- : End Setup User Count is: 3
+D, [2019-04-13T21:49:13.096190 #547] DEBUG -- : End Setup Article Count is: 3
+D, [2019-04-13T21:49:13.106629 #547] DEBUG -- : User count is: 3
+D, [2019-04-13T21:49:13.114894 #547] DEBUG -- : Start Setup User Count is: 2
+D, [2019-04-13T21:49:13.123548 #547] DEBUG -- : End Setup User Count is: 3
+D, [2019-04-13T21:49:13.123895 #547] DEBUG -- : End Setup Article Count is: 3
+D, [2019-04-13T21:49:13.140536 #547] DEBUG -- : Start Setup User Count is: 2
+D, [2019-04-13T21:49:13.148838 #547] DEBUG -- : End Setup User Count is: 3
+D, [2019-04-13T21:49:13.149187 #547] DEBUG -- : End Setup Article Count is: 3
+D, [2019-04-13T21:49:13.163102 #547] DEBUG -- : Start Setup User Count is: 2
+D, [2019-04-13T21:49:13.171890 #547] DEBUG -- : End Setup User Count is: 3
+D, [2019-04-13T21:49:13.172241 #547] DEBUG -- : End Setup Article Count is: 3
+D, [2019-04-13T21:51:07.385691 #565] DEBUG -- : Start Setup User Count is: 2
+D, [2019-04-13T21:51:07.393878 #565] DEBUG -- : End Setup User Count is: 3
+D, [2019-04-13T21:51:07.394247 #565] DEBUG -- : End Setup Article Count is: 3
+D, [2019-04-13T21:51:07.413295 #565] DEBUG -- : User count is: 3
+D, [2019-04-13T21:51:07.423485 #565] DEBUG -- : Start Setup User Count is: 2
+D, [2019-04-13T21:51:07.431760 #565] DEBUG -- : End Setup User Count is: 3
+D, [2019-04-13T21:51:07.432090 #565] DEBUG -- : End Setup Article Count is: 3
+D, [2019-04-13T21:51:07.451124 #565] DEBUG -- : Start Setup User Count is: 2
+D, [2019-04-13T21:51:07.459415 #565] DEBUG -- : End Setup User Count is: 3
+D, [2019-04-13T21:51:07.459751 #565] DEBUG -- : End Setup Article Count is: 3
+D, [2019-04-13T21:51:07.475268 #565] DEBUG -- : Start Setup User Count is: 2
+D, [2019-04-13T21:51:07.483485 #565] DEBUG -- : End Setup User Count is: 3
+D, [2019-04-13T21:51:07.483866 #565] DEBUG -- : End Setup Article Count is: 3
+D, [2019-04-13T21:52:29.284709 #574] DEBUG -- : Start Setup User Count is: 2
+D, [2019-04-13T21:52:29.293040 #574] DEBUG -- : End Setup User Count is: 3
+D, [2019-04-13T21:52:29.293413 #574] DEBUG -- : End Setup Article Count is: 3
+D, [2019-04-13T21:52:29.321864 #574] DEBUG -- : Start Setup User Count is: 2
+D, [2019-04-13T21:52:29.330382 #574] DEBUG -- : End Setup User Count is: 3
+D, [2019-04-13T21:52:29.330727 #574] DEBUG -- : End Setup Article Count is: 3
+D, [2019-04-13T21:52:29.340086 #574] DEBUG -- : Start Setup User Count is: 2
+D, [2019-04-13T21:52:29.348709 #574] DEBUG -- : End Setup User Count is: 3
+D, [2019-04-13T21:52:29.349083 #574] DEBUG -- : End Setup Article Count is: 3
+D, [2019-04-13T21:52:29.354814 #574] DEBUG -- : User email is: craig@example.com
+D, [2019-04-13T21:52:29.369580 #574] DEBUG -- : Start Setup User Count is: 2
+D, [2019-04-13T21:52:29.377928 #574] DEBUG -- : End Setup User Count is: 3
+D, [2019-04-13T21:52:29.378268 #574] DEBUG -- : End Setup Article Count is: 3
+D, [2019-04-13T21:54:15.542522 #584] DEBUG -- : Start Setup User Count is: 2
+D, [2019-04-13T21:54:15.551007 #584] DEBUG -- : End Setup User Count is: 3
+D, [2019-04-13T21:54:15.551342 #584] DEBUG -- : End Setup Article Count is: 3
+D, [2019-04-13T21:54:15.560845 #584] DEBUG -- : User email is: craig@example2.com
+D, [2019-04-13T21:54:15.574999 #584] DEBUG -- : Start Setup User Count is: 2
+D, [2019-04-13T21:54:15.583347 #584] DEBUG -- : End Setup User Count is: 3
+D, [2019-04-13T21:54:15.583684 #584] DEBUG -- : End Setup Article Count is: 3
+D, [2019-04-13T21:54:15.600550 #584] DEBUG -- : Start Setup User Count is: 2
+D, [2019-04-13T21:54:15.608762 #584] DEBUG -- : End Setup User Count is: 3
+D, [2019-04-13T21:54:15.609098 #584] DEBUG -- : End Setup Article Count is: 3
+D, [2019-04-13T21:54:15.619739 #584] DEBUG -- : Start Setup User Count is: 2
+D, [2019-04-13T21:54:15.629241 #584] DEBUG -- : End Setup User Count is: 3
+D, [2019-04-13T21:54:15.629931 #584] DEBUG -- : End Setup Article Count is: 3
+D, [2019-04-13T22:11:18.348906 #618] DEBUG -- : User List Test - User Count =3
+D, [2019-04-13T22:13:43.619913 #644] DEBUG -- : User List Test - User Count =3
+D, [2019-04-13T22:20:02.058712 #659] DEBUG -- : User List Test - User Count =3
+D, [2019-04-13T22:23:38.829023 #677] DEBUG -- : User List Test - User Count =3
+D, [2019-04-13T22:23:38.829561 #677] DEBUG -- : User ID: 298486374, User Email: 
+D, [2019-04-13T22:23:38.829612 #677] DEBUG -- : User ID: 980190962, User Email: 
+D, [2019-04-13T22:23:38.829658 #677] DEBUG -- : User ID: 980190963, User Email: craig@example3.com
+D, [2019-04-13T22:25:23.409338 #691] DEBUG -- : User List Test - User Count =3
+D, [2019-04-13T22:25:23.409970 #691] DEBUG -- : User ID: 298486374, User Email: 
+D, [2019-04-13T22:25:23.410032 #691] DEBUG -- : User ID: 980190962, User Email: 
+D, [2019-04-13T22:25:23.410082 #691] DEBUG -- : User ID: 980190963, User Email: craig@example3.com
+D, [2019-04-13T22:31:56.843105 #708] DEBUG -- : User List Test - User Count =3
+D, [2019-04-13T22:31:56.844916 #708] DEBUG -- : User ID: 298486374, User Email: 
+D, [2019-04-13T22:31:56.844973 #708] DEBUG -- : User ID: 980190962, User Email: 
+D, [2019-04-13T22:31:56.845022 #708] DEBUG -- : User ID: 980190963, User Email: craig@example3.com
+D, [2019-04-13T22:33:59.769679 #719] DEBUG -- : User List Test - User Count =3
+D, [2019-04-13T22:33:59.771919 #719] DEBUG -- : User ID: 298486374, User Email: 
+D, [2019-04-13T22:33:59.771974 #719] DEBUG -- : User ID: 980190962, User Email: 
+D, [2019-04-13T22:33:59.772023 #719] DEBUG -- : User ID: 980190963, User Email: craig@example3.com
+D, [2019-04-13T22:35:06.060972 #728] DEBUG -- : User List Test - User Count =3
+D, [2019-04-13T22:35:06.062660 #728] DEBUG -- : User ID: 298486374, User Username: 
+D, [2019-04-13T22:35:06.062714 #728] DEBUG -- : User ID: 980190962, User Username: 
+D, [2019-04-13T22:35:06.062763 #728] DEBUG -- : User ID: 980190963, User Username: Craig
+D, [2019-04-13T22:48:58.191782 #792] DEBUG -- : User List Test - User Count =3
+D, [2019-04-13T22:48:58.193336 #792] DEBUG -- : User ID: 298486374, User Username: 
+D, [2019-04-13T22:48:58.193391 #792] DEBUG -- : User ID: 980190962, User Username: 
+D, [2019-04-13T22:48:58.193459 #792] DEBUG -- : User ID: 980190963, User Username: Craig
+D, [2019-04-13T22:50:28.293575 #801] DEBUG -- : SETUP User List Test - User Count =2
+D, [2019-04-13T22:50:28.325662 #801] DEBUG -- : User List Test - User Count =3
+D, [2019-04-13T22:50:28.328068 #801] DEBUG -- : User ID: 298486374, User Username: 
+D, [2019-04-13T22:50:28.328165 #801] DEBUG -- : User ID: 980190962, User Username: 
+D, [2019-04-13T22:50:28.328262 #801] DEBUG -- : User ID: 980190963, User Username: Craig
+D, [2019-04-13T22:51:45.765354 #810] DEBUG -- : SETUP User List Test - User Count =0
+D, [2019-04-13T22:51:45.788749 #810] DEBUG -- : User List Test - User Count =1
+D, [2019-04-13T22:51:45.789240 #810] DEBUG -- : User ID: 980190963, User Username: Craig
+D, [2019-04-13T22:52:16.743625 #820] DEBUG -- : SETUP User List Test - User Count =0
+D, [2019-04-13T22:52:16.770113 #820] DEBUG -- : User List Test - User Count =1
+D, [2019-04-13T22:52:16.770497 #820] DEBUG -- : User ID: 980190963, User Username: Craig
+D, [2019-04-13T22:52:59.579104 #830] DEBUG -- : SETUP User List Test - User Count =2
+D, [2019-04-13T22:52:59.608918 #830] DEBUG -- : User List Test - User Count =3
+D, [2019-04-13T22:52:59.610380 #830] DEBUG -- : User ID: 298486374, User Username: 
+D, [2019-04-13T22:52:59.610437 #830] DEBUG -- : User ID: 980190962, User Username: 
+D, [2019-04-13T22:52:59.610487 #830] DEBUG -- : User ID: 980190963, User Username: Craig
+D, [2019-04-13T22:57:04.601721 #839] DEBUG -- : SETUP User List Test - User Count =2
+D, [2019-04-13T22:57:04.643111 #839] DEBUG -- : User List Test - User Count =3
+D, [2019-04-13T22:57:04.644623 #839] DEBUG -- : User ID: 298486374, User Username: 
+D, [2019-04-13T22:57:04.644681 #839] DEBUG -- : User ID: 980190962, User Username: 
+D, [2019-04-13T22:57:04.644732 #839] DEBUG -- : User ID: 980190963, User Username: Craig
+D, [2019-04-13T23:01:55.304320 #934] DEBUG -- : SETUP User List Test - User Count =2
+D, [2019-04-13T23:01:55.339739 #934] DEBUG -- : User List Test - User Count =3
+D, [2019-04-13T23:01:55.341324 #934] DEBUG -- : User ID: 298486374, User Username: 
+D, [2019-04-13T23:01:55.341382 #934] DEBUG -- : User ID: 980190962, User Username: 
+D, [2019-04-13T23:01:55.341434 #934] DEBUG -- : User ID: 980190963, User Username: Craig
+D, [2019-04-13T23:09:15.539512 #959] DEBUG -- : SETUP User List Test - User Count =2
+D, [2019-04-13T23:09:15.574144 #959] DEBUG -- : User List Test - User Count =3
+D, [2019-04-13T23:09:15.576086 #959] DEBUG -- : User ID: 298486374, User Username: 
+D, [2019-04-13T23:09:15.576154 #959] DEBUG -- : User ID: 980190962, User Username: 
+D, [2019-04-13T23:09:15.576207 #959] DEBUG -- : User ID: 980190963, User Username: Craig
+D, [2019-04-13T23:10:01.934508 #968] DEBUG -- : SETUP User List Test - User Count =0
+D, [2019-04-13T23:10:01.969574 #968] DEBUG -- : User List Test - User Count =1
+D, [2019-04-13T23:10:01.970996 #968] DEBUG -- : User ID: 1, User Username: Craig
+D, [2019-04-13T23:20:03.051831 #978] DEBUG -- : SETUP User List Test - User Count =0
+D, [2019-04-13T23:20:03.084888 #978] DEBUG -- : User List Test - User Count =1
+D, [2019-04-13T23:20:03.086330 #978] DEBUG -- : User ID: 1, User Username: Craig
+D, [2019-04-13T23:20:17.550778 #987] DEBUG -- : SETUP User List Test - User Count =0
+D, [2019-04-13T23:20:17.583388 #987] DEBUG -- : User List Test - User Count =1
+D, [2019-04-13T23:20:17.584882 #987] DEBUG -- : User ID: 1, User Username: Craig
+D, [2019-04-13T23:20:31.815043 #996] DEBUG -- : SETUP User List Test - User Count =0
+D, [2019-04-13T23:20:31.820244 #996] DEBUG -- : User List Test - User Count =1
+D, [2019-04-13T23:20:31.820647 #996] DEBUG -- : User ID: 1, User Username: Craig
+D, [2019-04-14T16:37:49.960093 #1044] DEBUG -- : Start Setup User Count is: 0
+D, [2019-04-14T16:37:49.968336 #1044] DEBUG -- : End Setup User Count is: 1
+D, [2019-04-14T16:37:49.968696 #1044] DEBUG -- : End Setup Article Count is: 3
+D, [2019-04-14T16:37:49.991785 #1044] DEBUG -- : Start Setup User Count is: 0
+D, [2019-04-14T16:37:49.999754 #1044] DEBUG -- : End Setup User Count is: 1
+D, [2019-04-14T16:37:50.000070 #1044] DEBUG -- : End Setup Article Count is: 3
+D, [2019-04-14T16:37:50.019376 #1044] DEBUG -- : Start Setup User Count is: 0
+D, [2019-04-14T16:37:50.027248 #1044] DEBUG -- : End Setup User Count is: 1
+D, [2019-04-14T16:37:50.027581 #1044] DEBUG -- : End Setup Article Count is: 3
+D, [2019-04-14T16:37:50.041405 #1044] DEBUG -- : Start Setup User Count is: 0
+D, [2019-04-14T16:37:50.049380 #1044] DEBUG -- : End Setup User Count is: 1
+D, [2019-04-14T16:37:50.049713 #1044] DEBUG -- : End Setup Article Count is: 3
+D, [2019-04-14T16:37:50.125886 #1044] DEBUG -- : SETUP User List Test - User Count =0
+D, [2019-04-14T16:37:50.131999 #1044] DEBUG -- : User List Test - User Count =1
+D, [2019-04-14T16:37:50.132415 #1044] DEBUG -- : User ID: 1, User Username: Craig
+D, [2019-04-14T16:49:12.966326 #1070] DEBUG -- : Start Setup User Count is: 0
+D, [2019-04-14T16:49:12.975042 #1070] DEBUG -- : End Setup User Count is: 1
+D, [2019-04-14T16:49:12.975664 #1070] DEBUG -- : End Setup Article Count is: 3
+D, [2019-04-14T16:49:13.004727 #1070] DEBUG -- : Start Setup User Count is: 0
+D, [2019-04-14T16:49:13.013496 #1070] DEBUG -- : End Setup User Count is: 1
+D, [2019-04-14T16:49:13.013822 #1070] DEBUG -- : End Setup Article Count is: 3
+D, [2019-04-14T16:49:13.028533 #1070] DEBUG -- : Start Setup User Count is: 0
+D, [2019-04-14T16:49:13.036674 #1070] DEBUG -- : End Setup User Count is: 1
+D, [2019-04-14T16:49:13.037402 #1070] DEBUG -- : End Setup Article Count is: 3
+D, [2019-04-14T16:49:13.054943 #1070] DEBUG -- : Start Setup User Count is: 0
+D, [2019-04-14T16:49:13.063472 #1070] DEBUG -- : End Setup User Count is: 1
+D, [2019-04-14T16:49:13.063800 #1070] DEBUG -- : End Setup Article Count is: 3
+D, [2019-04-14T16:49:13.073332 #1070] DEBUG -- : SETUP User List Test - User Count =0
+D, [2019-04-14T16:49:13.079794 #1070] DEBUG -- : User List Test - User Count =1
+D, [2019-04-14T16:49:13.080202 #1070] DEBUG -- : User ID: 1, User Username: Craig
