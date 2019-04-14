@@ -1,4 +1,9 @@
 <h1 class="action-heading">All Articles</h1>
-
+<div class="apple_pagination">
+	<%= will_paginate @articles %>
+</div>
 <%= render 'article', object: @articles %>
+<div class="apple_pagination">
+	<%= will_paginate @articles %>
+</div>
 

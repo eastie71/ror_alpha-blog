@@ -5,4 +5,10 @@
 	</div>
 </div>
 <h4 class="action-heading"><%= "#{@user.username.gsub(/\w{2,}\b/) { |word| word.capitalize }}'s Articles List" %></h4>
-<%= render 'articles/article', object: @user.articles %>
+<div class="apple_pagination">
+	<%= will_paginate @user_articles %>
+</div>
+<%= render 'articles/article', object: @user_articles %>
+<div class="apple_pagination">
+	<%= will_paginate @user_articles %>
+</div>
