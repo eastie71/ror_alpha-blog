@@ -7,6 +7,7 @@ class ArticleEditTest < ActionDispatch::IntegrationTest
 	end
 
 	test "should update valid article ok" do
+		sign_in_as(@user, @user.password)
 		get article_path(@article)
 		assert_template 'articles/show'
 		# Check for Edit button link
@@ -25,6 +26,7 @@ class ArticleEditTest < ActionDispatch::IntegrationTest
 	end
 
 	test "should reject update of invalid article" do
+		sign_in_as(@user, @user.password)
 		get edit_article_path(@article)
 		# Try to update title with BLANK 
 		patch article_path(@article), params: {article: {title: "", description: "this is ok - but title is not!"}}

@@ -36,6 +36,7 @@ class UsersTest < ActionDispatch::IntegrationTest
 	end
 
 	test "should get user show articles page" do
+		sign_in_as(@user, @user.password)
 		get user_path(@user)
 		assert_template 'users/show'
 		# Search for links to Articles associated with user

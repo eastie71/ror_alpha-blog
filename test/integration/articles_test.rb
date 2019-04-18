@@ -5,9 +5,7 @@ class ArticlesTest < ActionDispatch::IntegrationTest
 #logger = Logger.new('logfile.log')
 #logger.debug("Start Setup User Count is: #{User.count}")
 		@user = User.create!(username: "Craig", email: "craig@example2.com", password: "password")
-		@user.save
 		@article = Article.create!(title: "my title", description: "my description", user: @user)
-		@article.save
 #logger.debug("End Setup User Count is: #{User.count}")
 #logger.debug("End Setup Article Count is: #{Article.count}")
 	end
@@ -22,6 +20,7 @@ class ArticlesTest < ActionDispatch::IntegrationTest
 	end
 
 	test "should show an article" do
+		sign_in_as(@user, @user.password)
 		get article_path(@article)
 		assert_template 'articles/show'
 
@@ -34,6 +33,7 @@ class ArticlesTest < ActionDispatch::IntegrationTest
 
 	test "should create new valid article" do
 #logger = Logger.new('logfile.log')
+		sign_in_as(@user, @user.password)
 		get new_article_path
 		assert_template 'articles/new'
 		my_article_title = "new article title"
@@ -54,6 +54,7 @@ class ArticlesTest < ActionDispatch::IntegrationTest
 	end
 
 	test "should reject new invalid article" do
+		sign_in_as(@user, @user.password)
 		get new_article_path
 		assert_template 'articles/new'
 		my_article_title = "new valid article title"
