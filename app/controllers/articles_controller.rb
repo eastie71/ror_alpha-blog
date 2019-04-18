@@ -1,5 +1,7 @@
 class ArticlesController < ApplicationController
 	before_action :set_article, only: [:edit, :update, :show, :destroy]
+	before_action :require_user, except: [:show, :index]
+	before_action :require_same_user, only: [:edit, :update, :destroy]
 	def index
 		@articles = Article.paginate(:page => params[:page], :per_page => 5)
 	end
@@ -14,8 +16,7 @@ class ArticlesController < ApplicationController
 	def create
 #logger = Logger.new('article_log.log')
 		@article = Article.new(article_params)
-		@aUser = User.first
-		@article.user = @aUser
+		@article.user = current_user
 #logger.debug "Article User Count is: #{User.count}"
 #logger.debug "User LAST email is: #{@aUser.email}"
 		if @article.save
@@ -51,5 +52,12 @@ class ArticlesController < ApplicationController
 
 		def article_params
 			params.require(:article).permit(:title, :description)
+		end
+
+		def require_same_user
+			if !logged_in? || current_user != @article.user
+				flash[:danger] = "You are not authorised to perform that action."
+				redirect_to root_path
+			end
 		end
 end

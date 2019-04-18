@@ -4,7 +4,7 @@
 		<%= gravatar_for(@user, size: 150) %>
 	</div>
 </div>
-<h4 class="action-heading"><%= "#{@user.username.gsub(/\w{2,}\b/) { |word| word.capitalize }}'s Articles List" %></h4>
+<h4 class="action-heading center"><%= "#{@user.username.gsub(/\w{2,}\b/) { |word| word.capitalize }}'s Articles List" %></h4>
 <div class="apple_pagination">
 	<%= will_paginate @user_articles %>
 </div>
