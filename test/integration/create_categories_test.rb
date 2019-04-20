@@ -3,9 +3,11 @@ require 'test_helper'
 class CreateCategoriesTest < ActionDispatch::IntegrationTest
   def setup
 		@category = Category.new(name: "Sports", description: "Sports, such as AFL, Cricket, Hockey")
+		@admin_user = User.create!(username: "Craig", email: "craig@example.com", password: "password", admin: true)
 	end
 
 	test "should get new category form and create valid category" do
+		sign_in_as(@admin_user, @admin_user.password)
 		get new_category_path
 		assert_template 'categories/new'
 		assert_difference "Category.count", 1 do
@@ -17,6 +19,7 @@ class CreateCategoriesTest < ActionDispatch::IntegrationTest
 	end
 
 	test "should reject creating an invalid category" do
+		sign_in_as(@admin_user, @admin_user.password)
 		get new_category_path
 		assert_template 'categories/new'
 		assert_no_difference "Category.count" do
@@ -28,6 +31,7 @@ class CreateCategoriesTest < ActionDispatch::IntegrationTest
 	end
 
 	test "should reject creating an duplicate category" do
+		sign_in_as(@admin_user, @admin_user.password)
 		@category.save
 		get new_category_path
 		assert_template 'categories/new'

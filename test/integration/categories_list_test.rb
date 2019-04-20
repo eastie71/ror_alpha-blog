@@ -4,6 +4,7 @@ class CategoriesListTest < ActionDispatch::IntegrationTest
 	def setup
 		@category = Category.create(name: "Sports", description: "All year round, indoor and outdoor.")
 		@category2 = Category.create(name: "Travel", description: "All around the World")
+		@admin_user = User.create!(username: "Craig", email: "craig@example.com", password: "password", admin: true)
 	end
 
 	test "should show list of categories" do
