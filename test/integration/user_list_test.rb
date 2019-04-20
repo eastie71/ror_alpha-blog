@@ -6,6 +6,7 @@ class UserListTest < ActionDispatch::IntegrationTest
 #logger = Logger.new('logfile.log')
 #logger.debug("SETUP User List Test - User Count =#{User.count}")
 		@user = User.create!(username: "Craig", email: "craig@example3.com", password: "password")
+		@admin = User.create!(username: "Admin", email: "admin@example.com", password: "password", admin: true)
 		@article = Article.create!(title: "my title", description: "my description", user: @user)
 	end
 
@@ -21,5 +22,29 @@ class UserListTest < ActionDispatch::IntegrationTest
 		assert_template 'users/index'
 		assert_select "a[href=?]", user_path(@user), text: @user.username
 		assert_match "1 article", response.body
+	end
+
+	test "should allow admin user to delete user" do
+		sign_in_as(@admin, @admin.password)
+		get users_path
+		assert_template 'users/index'
+		assert_select "a[href=?]", user_path(@user), text: "Delete this User"
+		# Check if the count decreases on successful delete
+		assert_difference 'User.count', -1 do
+			delete user_path(@user)
+		end
+		# Should flash a success message
+		assert_not flash.empty?
+	end
+
+	test "should disallow non-admin user to delete user" do
+		sign_in_as(@user, @user.password)
+		get users_path
+		assert_template 'users/index'
+		assert_select "a[href=?]", user_path(@admin), text: @admin.username
+		# Check if the count does NOT delete
+		assert_no_difference 'User.count' do
+			delete user_path(@admin)
+		end
 	end
 end
