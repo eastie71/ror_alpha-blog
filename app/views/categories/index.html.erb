@@ -1,0 +1,14 @@
+<h2 class="action-heading center">All Categories</h2>
+<div class="apple_pagination">
+	<%= will_paginate @categories %>
+</div>
+<% @categories.each do |category| %>
+	<div class="card text-center card-adjust w-50 mx-auto">
+		<div class="card-body">
+			<h4><%= link_to category.name.gsub(/\w{2,}\b/) { |word| word.capitalize }, category_path(category), class: "center" %></h4>
+		</div>
+	</div>
+<% end %>
+<div class="apple_pagination">
+	<%= will_paginate @categories %>
+</div>
