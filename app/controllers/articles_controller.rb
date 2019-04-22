@@ -3,7 +3,8 @@ class ArticlesController < ApplicationController
 	before_action :require_user, except: [:show, :index]
 	before_action :require_same_user, only: [:edit, :update, :destroy]
 	def index
-		@articles = Article.paginate(:page => params[:page], :per_page => 5)
+		@order_articles = Article.order(updated_at: :desc)
+		@articles = @order_articles.paginate(:page => params[:page], :per_page => 5)
 	end
 
 	def new
