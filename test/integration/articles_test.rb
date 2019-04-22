@@ -6,6 +6,10 @@ class ArticlesTest < ActionDispatch::IntegrationTest
 #logger.debug("Start Setup User Count is: #{User.count}")
 		@user = User.create!(username: "Craig", email: "craig@example2.com", password: "password")
 		@article = Article.create!(title: "my title", description: "my description", user: @user)
+		@category = Category.create(name: "Sports", description: "All year round, indoor and outdoor.")
+		@category2 = Category.create(name: "Travel", description: "All around the World")
+		ArticleCategory.create(article: @article, category: @category)
+		ArticleCategory.create(article: @article, category: @category2)
 #logger.debug("End Setup User Count is: #{User.count}")
 #logger.debug("End Setup Article Count is: #{Article.count}")
 	end
@@ -19,6 +23,14 @@ class ArticlesTest < ActionDispatch::IntegrationTest
 		assert_select "div", text: @article.description
 	end
 
+	test "should display category links associated with article on listing" do
+		get articles_path
+		assert_response :success
+		assert_template 'articles/index'
+		assert_select "a[href=?]", category_path(@category), text: @category.name
+		assert_select "a[href=?]", category_path(@category2), text: @category2.name
+	end
+
 	test "should show an article" do
 		sign_in_as(@user, @user.password)
 		get article_path(@article)
@@ -29,6 +41,14 @@ class ArticlesTest < ActionDispatch::IntegrationTest
 
 		assert_select 'a[href=?]', edit_article_path(@article), text: "Edit this Article"
 		assert_select 'a[href=?]', articles_path, text: "Return to Article Listing"
+	end
+
+	test "should display category links associated with article on show page" do
+		sign_in_as(@user, @user.password)
+		get article_path(@article)
+		assert_template 'articles/show'
+		assert_select "a[href=?]", category_path(@category), text: @category.name
+		assert_select "a[href=?]", category_path(@category2), text: @category2.name
 	end
 
 	test "should create new valid article" do
