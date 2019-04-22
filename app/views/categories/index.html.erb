@@ -10,6 +10,8 @@
 			<% if logged_in? && current_user.admin? %>
 				<div class="center marg-top">
 					<%= link_to "Edit Category", edit_category_path(category), class: "badge badge-primary badge-adjust" %>
+					<%= link_to "Delete Category", category_path(category), method: :delete, 
+						data: { confirm: "Are you sure you wish to Delete Category '" + category.name + "' ?"}, class: "badge badge-danger badge-adjust" %>
 				</div>
 			<% end %>
 		</div>

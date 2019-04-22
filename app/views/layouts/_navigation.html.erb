@@ -19,9 +19,6 @@
           </a>
           <div class="dropdown-menu dropdown-adjust" aria-labelledby="navbarDropdown">
             <%= link_to "Create New Article", new_article_path, class: "dropdown-item" %>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
           </div>
         </li>
       <% end %>
@@ -37,14 +34,7 @@
           <% end %>
         </div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0 search-adjust" type="submit">Search</button>
-    </form>
     <ul class="navbar-nav">
       <% if logged_in? %>
           <li class="nav-item">
@@ -57,8 +47,6 @@
             <div class="dropdown-menu dropdown-menu-right dropdown-adjust" aria-labelledby="navbarDropdown">
               <%= link_to "Your Account", user_path(current_user), class: "dropdown-item" %>
               <%= link_to "Edit Account", edit_user_path(current_user), class: "dropdown-item" %>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </li>
       <% else %>
