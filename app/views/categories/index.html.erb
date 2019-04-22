@@ -7,6 +7,11 @@
 		<div class="card-body">
 			<h4><%= link_to category.name.gsub(/\w{2,}\b/) { |word| word.capitalize }, category_path(category), class: "center" %></h4>
 			<div class="text-muted"><%= pluralize(category.articles.count, "article") if category.articles.any? %></div>
+			<% if logged_in? && current_user.admin? %>
+				<div class="center marg-top">
+					<%= link_to "Edit Category", edit_category_path(category), class: "badge badge-primary badge-adjust" %>
+				</div>
+			<% end %>
 		</div>
 	</div>
 <% end %>

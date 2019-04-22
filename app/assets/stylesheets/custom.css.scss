@@ -33,6 +33,10 @@ a {
 	padding-bottom: 10px;
 }
 
+.marg-top {
+	margin-top: 12px;
+}
+
 .pad-top {
 	padding-top: 15px;
 }
@@ -193,7 +197,9 @@ a {
 }
 
 .badge-adjust {
-	background-color: #87b4ff;
+	.badge-pill-adjust {
+		background-color: #87b4ff;
+	}
 	font-size: 0.9rem;
 	font-weight: normal;
 	padding: 6px 10px 8px 10px;
