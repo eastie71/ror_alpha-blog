@@ -1,0 +1,8 @@
+<h2 class="action-heading center"><%= "Category: " + @category.name %></h2>
+<div class="apple_pagination">
+	<%= will_paginate @category_articles %>
+</div>
+<%= render 'articles/article', object: @category_articles %>
+<div class="apple_pagination">
+	<%= will_paginate @category_articles %>
+</div>
